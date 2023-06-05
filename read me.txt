@@ -1,0 +1,14 @@
+Read me txt.
+
+Hello, first of all if you're using this project use should be download the mySQL and create a local host don't forget your username and password 
+2.Step is easiest one open the project go to ConnectionProvider find the 17 row and change the user and password 
+3.Step open the mySql system create a data base For example create "create database its;" Don't forget to semi column.
+4.Step use your creating data base "use its;"
+5.Step you should add the 3 table "create table product(id varchar(50)primary key, name varchar(200), quantity varchar(255),price varchar(255));"
+"create table customer(customerID varchar(100)primary key, name varchar(100), company varchar(100));"
+"create table borrow(id varchar(100), customerID varchar(100), borrowDate varchar(100),dueDate varchar(100) returnProduct(5));"
+if you are created this table you should check to showing info 
+for example: desc product;
+After doing this part you can add product,new customer, or it can be borrow some item if you want the show use this code:
+"select *from product;"  you can show which item added.
+Thank you reading me have a good day.
